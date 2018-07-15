@@ -25,3 +25,12 @@ sudo wget -N https://raw.githubusercontent.com/mvduin/bbb-pin-utils/master/show-
 sudo chmod a+x show-pins
 ```
 
+## Build and run
+To access GPIO ports, application requires sudo permission.
+```
+# go build baron.go
+
+# ./baron
+Port: 15 State: false
+Port: 15 State: true
+```
